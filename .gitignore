@@ -1,0 +1,34 @@
+# Ignore Eclipse project files
+.project
+.settings
+.classpath
+
+# Ignore IDEA project files
+*.ipr
+*.iml
+*.iws
+.idea/
+
+# ignore metals 
+.metals
+project/metals.sbt
+.bloop
+
+# Ignore editor temporary files
+*.swp
+~*
+*~
+.*~
+
+# Ignore OS hidden files
+.DS_Store
+
+# Ignore build or runtime artifacts
+target
+*.log
+
+# ignore local environment configuration 
+.direnv
+.envrc
+shell.nix
+.nixpkgs-version.json
