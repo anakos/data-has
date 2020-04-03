@@ -2,7 +2,7 @@ import Dependencies._
 
 ThisBuild / name := "data-has"
 
-ThisBuild / organization := "com.gitlab.anakos"
+ThisBuild / organization := "io.github.anakos"
 
 ThisBuild / scalaVersion := "2.13.1"
 
