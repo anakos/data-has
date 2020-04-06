@@ -24,7 +24,7 @@ trait Has[A, E] { outer =>
     }
 }
 object Has {
-  def mk[E, A](_get: E => A): Has[A, E] =
+  def mk[A, E](_get: E => A): Has[A, E] =
     new Has[A, E] { override val get: E => A = _get }
 
   implicit def id[E]: Has[E, E] =
